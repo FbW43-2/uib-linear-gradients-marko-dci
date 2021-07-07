@@ -1,0 +1,76 @@
+.flag {
+    display: inline-block;
+    border: solid 1px black;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------- */
+/* Austria */
+
+.flag-austria {
+    height: 260px;
+    width: 360px;
+
+    background: linear-gradient(red 0 33%, white 33% 66%, red 66% 100%);
+}
+
+.flag-austria::before {
+    content: "Austria";
+}
+
+/* ----------------------------------------------- */
+/* Belgium */
+
+.flag-belgium {
+    height: 260px;
+    width: 260px;
+    
+    background: linear-gradient(to right, black 0 33%, yellow 33% 66%, red 66% 100%);
+}
+
+.flag-belgium::before {
+    content: "Belgium";
+    color: white;
+}
+
+/* ----------------------------------------------- */
+/* Benin */
+
+.flag-benin {
+    height: 260px;
+    width: 360px;
+    background: green;
+}
+
+.flag-benin > .flag-part-right {
+    height: 100%;
+    width: 60%;
+    float: right;
+    background: linear-gradient(yellow 0 50%, red 50% 100%);
+}
+
+.flag-benin::before {
+    content: "Benin";
+    color: white;
+}
+
+/* ----------------------------------------------- */
+/* Buddism */
+
+.flag-buddhism {
+    height: 260px;
+    width: 360px;
+    background: linear-gradient(to right, blue 0 16.6%, yellow 16.6% 33.2%, red 33.2% 49.8%, white 49.8% 66.4%, orange 66.4% 100%);
+}
+
+.flag-buddhism > .flag-part-right {
+    height: 100%;
+    width: 16.6%;
+    float: right;
+    background: linear-gradient(blue 0 20%, yellow 20% 40%, red 40% 60%, white 60% 80%, orange 80% 100%);
+}
+
+.flag-buddhism::before {
+    content: "Buddhism";
+}
